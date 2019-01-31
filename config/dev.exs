@@ -69,7 +69,7 @@ config :phoenix, :plug_init_mode, :runtime
 # Configure your database
 config :myapp, Myapp.Repo,
   username: "root",
-  password: "",
-  database: "myapp_dev",
-  hostname: "localhost",
+  password: "root",
+  database: "root",
+  hostname: "myapp-mysql",
   pool_size: 10
